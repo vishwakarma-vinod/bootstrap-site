@@ -1,0 +1,105 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.jumbotron {
+  margin-top: 20px;
+  text-align: center;
+  background: #333;
+  padding: 0;
+}
+
+.my-4 {
+  background: #fff;
+  width: 200px;
+  height: 1px;
+  border-radius: 10px;
+  border-bottom: #008ed6 1.5px solid;
+}
+
+#explore-head-section .btn {
+  background: #fff;
+  color: #777;
+  border-radius: 10px;
+  border-bottom: #008ed6 2.5px solid;
+}
+
+#explore-head-section .btn:hover {
+  background: #008ed6;
+  border-radius: 10px;
+  border-bottom: #f7f7f7 2.5px solid;
+  color: #fff;
+}
+
+#create-head-section .fas {
+  background-color: #008ed6;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#share-head-section .my-4 {
+  background: #fff;
+  width: 270px;
+  height: 1px;
+  border-radius: 10px;
+  border-bottom: #008ed6 1.5px solid;
+}
+
+#share-head-section .btn {
+  background: #fff;
+  color: #777;
+  border-radius: 10px;
+  border-bottom: #008ed6 2.5px solid;
+}
+
+#share-head-section .btn:hover {
+  background: #008ed6;
+  border-radius: 10px;
+  border-bottom: #f7f7f7 2.5px solid;
+  color: #fff;
+}
+
+#share-section {
+  background-color: #333;
+}
